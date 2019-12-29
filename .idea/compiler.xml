@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloudapicommon" />
+        <module name="cloudconsumerorder8003" />
+        <module name="cloudproviderpayment8001" />
+        <module name="cloudproviderpayment8002" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloudapicommon" target="1.8" />
+      <module name="cloudconsumerorder8003" target="1.8" />
+      <module name="cloudproviderpayment8001" target="1.8" />
+      <module name="cloudproviderpayment8002" target="1.8" />
+      <module name="mscloud" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
